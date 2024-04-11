@@ -19,7 +19,7 @@
     <body>
       <div class="container">
          <h2>Navbar With Dropdown</h2>
-         <nav class = "navbar navbar-expand-sm bg-secondary navbar-dark">
+         <nav class = "navbar navbar-expand-sm bg-secondary navbar-dark"> 
             <a class = "navbar-brand" href = "#">Navbar</a>
 
             <!-- Hamburger Menu -->
@@ -43,7 +43,16 @@
                      <a class = "nav-link" href = "#">Contact</a>
                   </li>
                   <li class = "nav-item dropdown">
-                     <a class = "nav-link" href = "#">Library</a>
+                     <a class = "nav-link" href = "#"
+                     id = "navbarNavDropdownMenuLink" role = "button" data-toggle = "dropdown"
+                     aria-haspopup = "true" aria-expanded = "false">
+                     Library
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby = "navbarNavDropdownMenuLink">
+                     <a class = "dropdown-item" href="#">HTML-5</a>
+                     <a class = "dropdown-item" href="#">CSS-5</a>
+                     <a class = "dropdown-item" href="#">Bootsrap-4</a>
+                  </div>
                   </li>
                </ul>
                
